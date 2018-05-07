@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="25287" started-at="2018-05-07T09:23:33Z" finished-at="2018-05-07T09:23:59Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="25287" started-at="2018-05-07T09:23:33Z" finished-at="2018-05-07T09:23:59Z">
+      <class name="com.legalmetrology.TestCases.LoginPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.legalmetrology.TestCases.LoginPageTest@396a51ab]" name="setup" is-config="true" duration-ms="6592" started-at="2018-05-07T14:53:33Z" finished-at="2018-05-07T14:53:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginPageTitleTest()[pri:0, instance:com.legalmetrology.TestCases.LoginPageTest@396a51ab]" name="loginPageTitleTest" duration-ms="32" started-at="2018-05-07T14:53:40Z" finished-at="2018-05-07T14:53:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageTitleTest -->
+        <test-method status="PASS" signature="teaddown()[pri:0, instance:com.legalmetrology.TestCases.LoginPageTest@396a51ab]" name="teaddown" is-config="true" duration-ms="852" started-at="2018-05-07T14:53:40Z" finished-at="2018-05-07T14:53:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teaddown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.legalmetrology.TestCases.LoginPageTest@396a51ab]" name="setup" is-config="true" duration-ms="6134" started-at="2018-05-07T14:53:41Z" finished-at="2018-05-07T14:53:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="logoImageTest()[pri:0, instance:com.legalmetrology.TestCases.LoginPageTest@396a51ab]" name="logoImageTest" duration-ms="102" started-at="2018-05-07T14:53:47Z" finished-at="2018-05-07T14:53:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoImageTest -->
+        <test-method status="PASS" signature="teaddown()[pri:0, instance:com.legalmetrology.TestCases.LoginPageTest@396a51ab]" name="teaddown" is-config="true" duration-ms="709" started-at="2018-05-07T14:53:47Z" finished-at="2018-05-07T14:53:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teaddown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.legalmetrology.TestCases.LoginPageTest@396a51ab]" name="setup" is-config="true" duration-ms="5725" started-at="2018-05-07T14:53:48Z" finished-at="2018-05-07T14:53:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginSuccessTest()[pri:0, instance:com.legalmetrology.TestCases.LoginPageTest@396a51ab]" name="loginSuccessTest" duration-ms="4385" started-at="2018-05-07T14:53:54Z" finished-at="2018-05-07T14:53:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginSuccessTest -->
+        <test-method status="PASS" signature="teaddown()[pri:0, instance:com.legalmetrology.TestCases.LoginPageTest@396a51ab]" name="teaddown" is-config="true" duration-ms="728" started-at="2018-05-07T14:53:58Z" finished-at="2018-05-07T14:53:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teaddown -->
+      </class> <!-- com.legalmetrology.TestCases.LoginPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,18 @@
+package SeleniumTutorial;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class WebDriverBasics {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		//Firefox browser : geckodriver
+		
+	WebDriver driver = new FirefoxDriver();
+	
+	
+	}
+
+}

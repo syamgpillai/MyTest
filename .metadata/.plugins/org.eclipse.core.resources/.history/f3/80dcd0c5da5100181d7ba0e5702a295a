@@ -1,0 +1,11 @@
+package com.legalmetrology.PageObjects;
+
+import com.legalmetrology.TestBase.TestBase;
+
+public class DashboardPage extends TestBase {
+	
+	
+	@FindBy(xpath="\\span[contains(text(),'Admin AA')]")
+	WebElement loginname;
+
+}

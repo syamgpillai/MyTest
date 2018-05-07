@@ -1,0 +1,23 @@
+package com.legalmetrology.TestCases;
+
+import org.testng.annotations.BeforeMethod;
+
+import com.legalmetrology.TestBase.TestBase;
+
+public class LoginPageTest extends TestBase{
+
+	
+	public LoginPageTest(){
+		
+	}
+	
+	
+	@BeforeMethod
+	public void setup(){
+		initialization();
+	}
+		
+	
+	
+	
+}

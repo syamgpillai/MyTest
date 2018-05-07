@@ -1,0 +1,20 @@
+package SeleniumTutorial;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class WebDriverBasics {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		//Firefox browser : geckodriver
+	
+		System.setProperty("webdriver.gecko.driver", "D:\\WorkingFolder\\Setups\\Selenium\\geckodriver-v0.19.1-win32\\geckodriver.exe");
+		
+		WebDriver driver = new FirefoxDriver();
+	
+	
+	}
+
+}

@@ -1,0 +1,9 @@
+package com.legalmetrology.TestCases;
+
+import com.legalmetrology.TestBase.TestBase;
+
+public class LoginPageTest extends TestBase{
+
+	
+	
+}

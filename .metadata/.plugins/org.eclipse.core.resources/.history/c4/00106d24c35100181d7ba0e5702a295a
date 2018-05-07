@@ -1,0 +1,17 @@
+package com.legalmetrology.PageObjects;
+
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+
+import com.legalmetrology.TestBase.TestBase;
+
+public class LoginPage extends TestBase{
+	
+	//Pagefactory or PageObject or OR
+	
+	@FindBy(id="webmaster");
+	WebElement usertype;
+	
+	
+
+}

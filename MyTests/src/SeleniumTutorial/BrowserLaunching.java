@@ -1,0 +1,41 @@
+package SeleniumTutorial;
+
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class BrowserLaunching {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		//Launch Firefox browser
+		
+		//System.setProperty("webdriver.gecko.driver", "D:\\WorkingFolder\\Setups\\Selenium\\geckodriver-v0.19.1-win32\\geckodriver.exe");
+		//WebDriver driver = new FirefoxDriver();
+			//	driver.get("http:\\www.google.com");
+		
+		
+		
+		//Launch Chrome browser
+		System.setProperty("webdriver.chrome.driver", "D:\\WorkingFolder\\Setups\\Selenium\\chromedriver_win32\\chromedriver.exe");
+		WebDriver driver = new ChromeDriver();
+		driver.get("http://www.google.com");
+		String title = driver.getTitle();
+		System.out.println(title);
+		
+		//validating the title
+		if(title.equals("Googles")){
+			System.out.println("Correct title");
+		}
+		else{
+			System.out.println("Incorrect title");
+		}
+		
+		System.out.println(driver.getCurrentUrl());
+	
+		driver.quit();
+	}
+
+}
