@@ -20,7 +20,7 @@ public class DashboardPageTest extends TestBase{
 		loginpage.login(prop.getProperty("username"), prop.getProperty("password"));
 	}
 	
-	@Test
+	
 	
 	
 }

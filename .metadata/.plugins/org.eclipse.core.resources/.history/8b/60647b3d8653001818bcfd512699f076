@@ -1,0 +1,45 @@
+package SeleniumTutorial;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class WindowsPopup {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.setProperty("webdriver.chrome.driver", "D:\\WorkingFolder\\Setups\\Selenium\\chromedriver_win32\\chromedriver.exe");
+		WebDriver driver = new ChromeDriver();
+		
+		driver.get("http://legalmetrology-qa.rainconcert.biz");
+		driver.findElement(By.id("webmaster")).click();
+		driver.findElement(By.id("email")).sendKeys("boban.gm@rainconcert.in");
+		driver.findElement(By.id("password")).sendKeys("Rain12345");
+		driver.findElement(By.xpath("/html/body/div/div/div/form/button")).click();
+		
+		System.out.println(driver.getTitle());
+		String currenturl=driver.getTitle();
+		
+		if(currenturl.equals("Safe Fleet - WebMaster Dashboard")) {
+				System.out.println("Correct page");
+		}
+		else{
+			System.out.println("Wrong page");
+		}
+		
+		driver.findElement(By.xpath("/html/body/div[1]/aside/div/div/div/a[1]/i")).click();
+		
+		String profile = driver.findElement(By.xpath("/html/body/div[1]/div/div[2]/h2")).getText();
+		System.out.println(profile);
+		if (profile.equals("Update Profile")){
+			System.out.println("Correct page");
+		}
+		else{
+			System.out.println("Wrong Page");
+		}
+		
+		driver.quit();
+		}
+	
+}
